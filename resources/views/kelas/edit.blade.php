@@ -38,7 +38,7 @@
     <tr>
         <td><label for="gambar_kelas">Gambar:</label></td>
         <td> @if($kelas->gambar_kelas)
-            <img src="{{asset('upload_gambar/'.$kelas->gambar_kelas)}}" alt="{{$kelas->namaskelas}}" width="100" height="100"> 
+            <img src="{{asset('upload_gambar/'.$kelas->gambar_kelas)}}" alt="{{$kelas->namaskelas}}" width="100" height="100">
             @else
             <p>Tidak ada gambar saat ini.</p>
             @endif

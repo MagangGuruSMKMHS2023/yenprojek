@@ -8,9 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Kelas extends Model
 {
     use HasFactory;
-    protected $primaryKey='id_kelas';
-    protected $table='kelas';//sesuai nama dengan nama tabel
-    protected $fillable=[
+    protected $primaryKey = 'id_kelas';
+    protected $table = "kelas";
+    protected $fillable = [
         'id_kelas',
         'namakelas',
         'walikelas',
@@ -18,9 +18,7 @@ class Kelas extends Model
         'kursi',
         'meja',
         'gambar_kelas',
-        "updated_at",
+        "update_at",
         "created_at"
-
     ];
-
 }
